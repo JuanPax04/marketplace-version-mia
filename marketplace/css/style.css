@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+body{
+  margin: 0px;
+  background-color: rgb(255, 187, 187);
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.page-nav {
+   border: 1px solid black;
+   margin: 20px;
+}
+
+.page-nav h1 {
+  background-color: aquamarine;
+  margin: 20px;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+.lupa{
+  width:2%;
+  height: 2%;
+  }
+
+.cajadeproducto {
+  margin-left: 20px;
+  padding: 2px 16px;
+  position: relative;
+}
+
+.cajadeproducto:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+}
+.cajadeproducto img {
+  width: 300px;
+}
+
+.boton {
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.boton:hover {
+ background-color: rgb(6, 32, 32);
+ color:aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*buscador */
+
+.iconodebuscador {
+  width: 2%;
+  height: 2%
+}
+#searchbar{
+  padding:1%;
+  border-radius: 10px;
+}
+
+/* Cuando se quiere buscar algo, la barra crece un */
+input[type=text]:focus {
+  width: 50%;
+}
